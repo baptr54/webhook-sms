@@ -5,10 +5,10 @@ import hashlib
 
 app = Flask(__name__)
 
-# Configuration Zadarma (à modifier avec vos vrais identifiants)
-ZADARMA_KEY = "votre_cle_api"
-ZADARMA_SECRET = "votre_secret_api" 
-VOTRE_NUMERO = "33123456789"  # Votre numéro qui recevra les SMS
+# Configuration Zadarma
+ZADARMA_KEY = "90f769203bbc7e181f77"
+ZADARMA_SECRET = "e9eea5a786f90e643c19" 
+VOTRE_NUMERO = "33618743900"  # Votre numéro perso en format international
 
 @app.route('/')
 def home():
